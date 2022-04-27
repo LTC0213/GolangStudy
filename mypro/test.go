@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-/* func f6() {
+func f6() {
 	//  Monday Tuesday Wednesday Thursday Friday Saturday Sunday
 	var c string
 	fmt.Println("输入一个字符：")
@@ -37,7 +37,7 @@ import "fmt"
 	} else {
 		fmt.Println("输入错误")
 	}
-} */
+}
 
 func f1() {
 	for i := 0; i <= 10; i++ {
@@ -47,7 +47,7 @@ func f1() {
 
 func main() {
 	f1()
-	// f6()
+	f6()
 	/* s := user.Hello()
 	fmt.Printf("s: %v\n", s)
 	const (
